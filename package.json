@@ -1,0 +1,29 @@
+{
+	"name": "varner-url-shortener",
+	"version": "1.0.0",
+	"description": "A simple API that takes URLs and returns a new shortlink that redirects to that URL.",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^5.0.0-alpha.2",
+		"mongodb": "^2.2.5",
+		"mongoose": "^4.5.7",
+		"cors": "^2.8.1",
+		"body-parser": "^1.15.2"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https:///www.github.com/jacobvarner/url-shortener-api.git"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
